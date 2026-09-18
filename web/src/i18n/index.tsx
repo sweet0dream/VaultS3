@@ -3,6 +3,7 @@ import en from './locales/en.json'
 import fr from './locales/fr.json'
 import de from './locales/de.json'
 import zhCN from './locales/zh-CN.json'
+import ru from './locales/ru.json'
 
 // English is the source of truth: every other locale is checked against it (see
 // i18n.test.ts) and any key a translation is missing falls back to the English
@@ -24,6 +25,7 @@ export const LOCALES: LocaleDef[] = [
   { code: 'de', label: 'Deutsch', messages: de as Messages },
   { code: 'fr', label: 'Français', messages: fr as Messages },
   { code: 'zh-CN', label: '简体中文', messages: zhCN as Messages },
+  { code: 'ru', label: 'Русский', messages: ru as Messages },
 ]
 
 const STORAGE_KEY = 'vaults3_locale'
