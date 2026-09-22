@@ -76,7 +76,7 @@
   "common.cannotBeUndone": "Это действие нельзя отменить.",
   "buckets.create": "Создать бакет",
   "buckets.creating": "Создание...",
-  "buckets.namePlaceholder": "мой-бакет",
+  "buckets.namePlaceholder": "moy-baket",
   "buckets.enableVersioning": "Включить версионирование",
   "buckets.autoExpire": "Автоистечение через (дней)",
   "buckets.autoExpirePlaceholder": "Оставьте пустым, чтобы не истекал",
